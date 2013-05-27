@@ -1,0 +1,10 @@
+platform :ios, '5.0'
+
+pod 'CocoaLumberjack'
+pod 'BlocksKit'
+pod 'FlatUIKit'
+pod 'NSString-Ruby'
+
+target :FlexibleViewTests, :exclusive => true do
+    pod 'Kiwi'
+end
